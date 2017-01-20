@@ -1,5 +1,6 @@
+package principle;
 
-public class pattern1 {
+public class Principle {
 
 	/**
 	 * @Description:
