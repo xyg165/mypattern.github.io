@@ -1,6 +1,6 @@
-package principle;
+package patterntype.behavior;
 
-public class Principle {
+public class ChainResponsibility {
 
 	/**
 	 * @Description:
