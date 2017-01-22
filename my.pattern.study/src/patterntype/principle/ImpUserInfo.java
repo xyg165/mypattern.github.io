@@ -39,18 +39,5 @@ public class ImpUserInfo implements IfcUserInfoBiz, IfcUserInfoBo {
 		return false;
 	}
 
-	/**
-	 * @Description:
-	 * @param args
-	 * @return void:
-	 * @exception 
-	 * @author xyg @date 2017-1-22
-	 * @version 
-	 */
-	public static void main(String[] args) {
-
-		ImpUserInfo impUinfo = new ImpUserInfo();
-		impUinfo.setUserID("1314888");
-	}
 
 }
