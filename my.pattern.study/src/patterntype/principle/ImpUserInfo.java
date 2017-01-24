@@ -4,15 +4,17 @@ public class ImpUserInfo implements IfcUserInfoBiz, IfcUserInfoBo {
 
 	@Override
 	public void setUserID(String userID) {
-		System.out.println("已修改用户ID："+userID);
+		System.out.println("已设置用户ID："+userID);
 	}
 
 	@Override
-	public void setUserName(String userID) {
+	public void setUserName(String userName) {
+		System.out.println("已设置用户名称："+userName);
 	}
 
 	@Override
 	public void changeUserName(String userName) {
+		System.out.println("已修改用户名："+userName);
 	}
 
 	@Override
